@@ -3,35 +3,35 @@ const reviews = [
         id:0,
         name: "Michael Fassbender",
         job: "UI Designer",
-        img:"./user2.jpg",
+        img:"user2.jpg",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste, vel ullam voluptatibus quae modi aliquam doloribus eius commodi reprehenderit."
     },
     {
         id:1,
         name: "Susan Smith",
         job: "web dev",
-        img:"./user4.jpeg",
+        img:"user4.jpeg",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste, vel ullam voluptatibus quae modi aliquam doloribus eius commodi reprehenderit."
     },
     {
         id:2,
         name: "Alex Botez",
         job: "chess master",
-        img:"./user3.jpg",
+        img:"user3.jpg",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste, vel ullam voluptatibus quae modi aliquam doloribus eius commodi reprehenderit."
     },
     {
         id:3,
         name: "Tom Hardy",
         job: "Actor",
-        img:"./user1.jpg",
+        img:"user1.jpg",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste, vel ullam voluptatibus quae modi aliquam doloribus eius commodi reprehenderit."
     },
     {
         id:4,
         name: "Gordon Lightfoot",
         job: "Singer",
-        img:"./user5.jpeg",
+        img:"user5.jpeg",
         text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste, vel ullam voluptatibus quae modi aliquam doloribus eius commodi reprehenderit."
     },
    
