@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F1F2FF;
+}
+
+button{
+    background-color: lightblue;
+    color: teal;
+    margin-top: 25px;
+    border-color: turquoise;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: hidden;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    margin:250px auto;
+}
+
+.heading-bottom{
+    box-sizing: content-box;
+    margin-bottom: 30px;
+}
+
+.heading-bottom::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 5%;
+    padding-top: 4px;
+    border-bottom:4px solid turquoise;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+
+.review{
+    height: 400px;
+    margin:auto;
+    width: 44rem;
+    border: 2px hidden;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* object-fit: cover; */
+}
+
+.review img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+
+
+.img-container img{
+    height: 100px;
+    /* object-fit: cover; */
+    border-radius: 100px;
+}
+
+#author{
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+#job{
+    color: cyan;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#info{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+
+#left-btn{
+    margin-right: 30px;
+    color: turquoise;
+    cursor: pointer;
+}
+
+#right-btn{
+    cursor: pointer;
+    color: turquoise;
+}
